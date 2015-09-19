@@ -4,7 +4,7 @@ A Rasberry Pi PHP app for remote management of an Aquaponics system.
 ##Hardware Spec
  - [Raspberry Pi Model A+] (other models may work as well)
  - JBtek 8 Channel DC 5V Relay Module
- - Raspberry PI 5MP Camera Board Module
+ - Raspberry Pi 5MP Camera Board Module
  
 ##Software
  - [Raspbian Linux]
