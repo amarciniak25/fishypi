@@ -8,5 +8,10 @@ A Rasberry Pi PHP app for remote management of an Aquaponics system.
 ##Software
  - [Raspbian Linux]
  
+##Contributors
+ - [Xander Marciniak], System Engineer and Project Management
+ - Yuliya Atrasevich, PHP Developer
+ 
 [Raspbian Linux]: <http://www.raspbian.org/>
 [Raspberry Pi Model A+]: <https://www.raspberrypi.org/products/model-a-plus/>
+[Xander Marciniak]: <https://amarciniak.com>
