@@ -12,6 +12,12 @@ A Rasberry Pi PHP app for remote management of an Aquaponics system.
 ##Contributors
  - [Xander Marciniak], System Engineer and Project Management
  - Yuliya Atrasevich, PHP Developer
+
+##System Setup
+1. Begin with a freshly installed and update Raspian
+2. Install Apache: sudo apt-get install apache2
+3. Install PHP: sudo apt-get install php5 libapache2-mod-php5
+4. Install Git: sudo apt-get install git
  
 [Raspbian Linux]: <http://www.raspbian.org/>
 [Raspberry Pi Model A+]: <https://www.raspberrypi.org/products/model-a-plus/>
