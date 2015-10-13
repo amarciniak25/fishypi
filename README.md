@@ -19,6 +19,13 @@ A Rasberry Pi PHP app for remote management of an Aquaponics system.
 3. Install PHP: `sudo apt-get install php5 libapache2-mod-php5`
 4. Install Git: `sudo apt-get install git`
 5. Install [Wiring Pi]: GPIO Interface library for the Raspberry Pi
+6. Clone git project to /var/www (this should create a fishypi directory)
+7. Install the boot script, cd to /var/www/fishypi/system:
+```sh
+sudo cp fishypi-boot.sh /etc/init.d/fishypi-boot.sh
+sudo chmod +x /etc/init.d/fishypi-boot.sh
+sudo update-rc.d fishypi-boot.sh defaults
+```
 
 ##Update Instructions
 1. SSH into the server: `ssh pi@server-address`
