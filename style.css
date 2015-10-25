@@ -1,0 +1,111 @@
+html, body, form {width:100%}
+body{
+	color:black;
+	
+	font: 12pt "Tahoma", sans-serif;
+	
+}
+
+#header{
+	text-align:left;
+	font: Arial;
+	font-weight: bold;
+    font-size:100%;
+	padding-left: 16px;
+    width:100%;
+    height:30%;
+    /*float: left;*/
+	text-align:center;
+	
+}
+
+#main{
+    
+	padding-left: 40px;
+	padding-right: 20px;
+    height:45%;
+	/*float:left;*/
+    
+}
+
+#footer{
+	clear:both;
+	padding-top:2em;
+	padding:0.75em;
+	/*padding-left: 16px;*/
+
+    
+}
+
+table, th, td {
+    border-style:inset;
+	border-color:#484848;
+	padding:0.75em;
+	border-collapse: collapse;
+	font-family:Arial;
+	color:black;
+	
+}
+h3,h4{
+	text-align:center;
+	
+}
+img{
+	float:left;
+}
+
+ul {
+  margin: 0 auto;
+  padding-left: 16px;
+	padding-right: 8px;
+}
+li {
+  list-style-type: none;
+}
+.source{
+	font-style:italic;
+}
+#nav {
+  /*display: table;
+  table-layout: fixed;*/
+  text-align: center;
+  width:100%;
+  padding-bottom:2em;
+
+}
+#nav li {
+  display: inline;
+  
+  padding-right: 1px;
+  height: 40px;
+  line-height:40px;
+  font-size:large;
+  vertical-align: bottom;
+}
+#nav a {
+  display: inline;
+  /*display: block;*/
+  min-height: 100%;
+  padding: 4px 90px;
+  background-color: #222;
+  color: white;
+  border-radius: 6px 6px 0 0;
+  text-decoration:none;
+}
+ #nav a:hover, #nav a:active {
+    background-color: #7a991a;
+} 
+
+#temperature, #lights {
+  width:200px;
+  font-weight: bold; 
+  font-size: 24px;  
+  
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 50%;
+    height: 2em;
+	
+}
