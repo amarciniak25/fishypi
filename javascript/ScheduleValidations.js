@@ -47,4 +47,5 @@ if (x && y) {
 	alert("Please check Off or On for relay 8");
 	return false;
 }
+alert("Successful submission!");
 }

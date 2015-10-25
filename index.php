@@ -13,15 +13,7 @@
 		<h1>Fishy Pi</h1>
 		</div>
 	
-	<div id ="nav">
-	<ul>
-    	<li><a href="./index.html">Home</a></li>
-		<li><a href="./Gallery.html">Gallery</a></li>
-		<li><a href="./ManualControl.html">Manual Control</a></li>
-		<li><a href="./Schedule.html">Schedule</a></li>
-		<li><a href="./Products.html">Products</a></li>
-	</ul>
-	</div>
+	<?php include("menu.php"); ?>
 	
 	<div id ="main">
 	<h3>What is Aquaponics?</h3>

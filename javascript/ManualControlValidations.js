@@ -8,6 +8,7 @@ function validateTemp() {
 		alert("Please enter a number");
 		return false;
 	}
+	alert("Successful submission!");
 }
 function validateColor() {
 	var x = document.forms["lightColor"]["lights"].value;
@@ -15,4 +16,5 @@ function validateColor() {
         alert("Color must be selected");
         return false;
     }
+	alert("Successful submission!");
 } 

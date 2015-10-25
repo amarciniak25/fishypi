@@ -13,25 +13,18 @@
 		<h1>Fishy Pi</h1>
 	</div>
 	
-	<div id ="nav">
-	<ul>
-    	<li><a href="./index.html">Home</a></li>
-		<li><a href="./Gallery.html">Gallery</a></li>
-		<li><a href="./ManualControl.html">Manual Control</a></li>
-		<li><a href="./Schedule.html">Schedule</a></li>
-		<li><a href="./Products.html">Products</a></li>
-	</ul>
-	</div>
+	<?php include("menu.php"); ?>
+	
 	<div id ="main">
 	
 	<form name="temp" onsubmit="return validateTemp()" method="post">
-		Target temperature:<br>
+		<p><strong>Target temperature:</strong></p>
 		<input type="text" name="temp">
 		<input type="submit" value="Submit">
 	</form><br>
 	
 	<form name="lightColor" onsubmit="return validateColor()" method="post">
-	Select light color:<br>
+	<p><strong>Select light color:</strong></p>
 	<select name="lights" id="lights">
 		<option value=""></option>
 		<option value="blue">Blue</option>
@@ -54,6 +47,7 @@
     <td><button type="button"id="relay2">Off</button></td>
   </tr>
   </table>
+  </div>
 	<div id ="footer">
 	
 		<a href="http://validator.w3.org/check?uri=referer">Validate HTML</a> 
