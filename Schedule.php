@@ -18,7 +18,7 @@
 	
 	<div id ="main">
 	<p><strong>Enable schedule</strong></p>
-	<form onsubmit="return ValidateRelays()" method="post">
+	<form onsubmit="return ValidateRelays()" action="saveschedule.php" method="post">
 	<table style="width:100%">
 <tr>
     <th>Relay</th>

@@ -27,3 +27,36 @@ function changeImage1() {
         image.src = "Gallery/Box.jpg";
     }
 }
+
+function changeImage3() {
+    var image = document.getElementById('myP3');
+    if (image.src.match("Outlets")) {
+        image.src = "Gallery/home.jpg";
+    } else {
+        image.src = "Gallery/Outlets.jpg";
+    }
+}
+function changeImage4() {
+    var image = document.getElementById('myP4');
+    if (image.src.match("relayboard")) {
+        image.src = "Gallery/systems.jpg";
+    } else {
+        image.src = "Gallery/relayboard.jpg";
+    }
+}
+function changeImage5() {
+    var image = document.getElementById('myP5');
+    if (image.src.match("systeminaction")) {
+        image.src = "Gallery/fish.jpg";
+    } else {
+        image.src = "Gallery/systeminaction.jpg";
+    }
+}
+function changeImage6() {
+    var image = document.getElementById('myP6');
+    if (image.src.match("aquarium")) {
+        image.src = "Gallery/fish2.jpg";
+    } else {
+        image.src = "Gallery/aquarium.jpg";
+    }
+}

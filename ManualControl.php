@@ -23,7 +23,7 @@
 		<input type="submit" value="Submit">
 	</form><br>
 	
-	<form name="lightColor" onsubmit="return validateColor()" method="post">
+	<form name="lightColor" onsubmit="return validateColor()" action="savecolor.php" method="post">
 	<p><strong>Select light color:</strong></p>
 	<select name="lights" id="lights">
 		<option value=""></option>
