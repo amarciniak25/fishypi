@@ -17,7 +17,7 @@
 	
 	<div id ="main">
 	
-	<form name="temp" onsubmit="return validateTemp()" method="post">
+	<form name="temp" onsubmit="return validateTemp()" action="savetemp.php" method="post">
 		<p><strong>Target temperature:</strong></p>
 		<input type="text" name="temp">
 		<input type="submit" value="Submit">
@@ -43,8 +43,9 @@
   </tr> 
  <tr>
     <td>1</td>
+	<!--This buttons will use ajax to operate relays this is why they are not in a form -->
     <td><button type="button"id="relay1">On</button></td>		
-    <td><button type="button"id="relay2">Off</button></td>
+    <td><button type="button"id="relay2">Off</button></td> 
   </tr>
   </table>
   </div>
