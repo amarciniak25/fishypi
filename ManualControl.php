@@ -15,11 +15,20 @@
 	
 	<?php include("menu.php"); ?>
 	
+	<?php
+	if(isset($_COOKIE["temp"])) {
+		$temp=$_COOKIE["temp"];
+	}
+		else{
+			$temp = "";
+		}
+	?>
+	
 	<div id ="main">
 	
 	<form name="temp" onsubmit="return validateTemp()" action="savetemp.php" method="post">
 		<p><strong>Target temperature:</strong></p>
-		<input type="text" name="temp">
+		<input type="text" name="temp" value="<?php echo $temp; ?>">
 		<input type="submit" value="Submit">
 	</form><br>
 	

@@ -18,7 +18,11 @@ body{
 	text-align:center;
 	
 }
-
+#developer{
+	text-align:left;
+	padding-left: 40px;
+	padding-right: 20px;
+}
 #main{
     
 	padding-left: 40px;
@@ -36,6 +40,11 @@ body{
 	/*padding-left: 16px;*/
 
     
+}
+
+.tn{
+	padding-right:30px;
+	padding-bottom:50px;
 }
 
 table, th, td {

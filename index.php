@@ -12,6 +12,9 @@
 	<div id = "header">
 		<h1>Fishy Pi</h1>
 		</div>
+		<div id = "developer">
+		<p>Developer: Yuliya Atrasevich</p>
+		</div>
 	
 	<?php include("menu.php"); ?>
 	
@@ -34,7 +37,7 @@
     <p>Once the system is set up, only a little extra water is needed to make up for evaporation, because the same water is constantly recycled. This is a great improvement on traditional plant-growing, which consumes a lot of water.
 	Many types of plants can be grown in aquaponic farms (whether commercial- or home-sized), especially leafy plants and herbs. The most commonly used fish is tilapia, although many others are also suitable.</p>
 	<span class = "source">Source:
-	<a href = "http://home.howstuffworks.com/lawn-garden/professional-landscaping/alternative-methods/what-is-aquaponics.html"> How stuff works, Home and Garden.What is aquaponics?</a>
+	<a href = "http://home.howstuffworks.com/lawn-garden/professional-landscaping/alternative-methods/what-is-aquaponics.html" target="_blank"> How stuff works, Home and Garden.What is aquaponics?</a>
 	</span>
 	
 	</div>
