@@ -103,7 +103,7 @@ li {
   border-radius: 6px 6px 0 0;
   text-decoration:none;
 }
- #nav a:hover, #nav a:active {
+ #nav a:hover, #nav a:active, #nav a.currentPage {
     background-color: #7a991a;
 } 
 

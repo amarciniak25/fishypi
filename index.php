@@ -15,6 +15,7 @@
 		<div id = "developer">
 		<p>Developer: Yuliya Atrasevich</p>
 		</div>
+	<?php $currentPage=basename($_SERVER['PHP_SELF']);?>
 	
 	<?php include("menu.php"); ?>
 	

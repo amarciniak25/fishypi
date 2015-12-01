@@ -11,7 +11,7 @@
 	<div id = "header">
 		<h1>Fishy Pi</h1>
 	</div>
-	
+	<?php $currentPage=basename($_SERVER['PHP_SELF']);?>
 	<?php include("menu.php"); ?>
 	
 	<div id = "main">
