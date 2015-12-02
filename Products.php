@@ -36,7 +36,7 @@
 	<td>Great filter and extremely high in protein content </td>
   </tr>
   <tr>
-    <td><img src="Capture.png" alt="Solo" style= "width:220px; height:300px;"></td>
+    <td><img src="Aqua.jpg" alt="Solo" style= "width:220px; height:300px;"></td>
     <td>Aquaurban Solo</td>
 	<td>The AquaUrban Solo aquaponics system is a stylish new way to bring aquaponic gardening 
 	to your home, school or office. The one-piece custom molded grow bed and fish tank can grow your 
