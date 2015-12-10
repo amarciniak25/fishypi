@@ -1,4 +1,4 @@
-<?php
+<?php // saves light schedule information to file 
 $OUTPUT_FILENAME = "Data/Schedule.txt";
 $schedule1 = $_POST['schedule1'];
 $schedule2 = $_POST['schedule2'];

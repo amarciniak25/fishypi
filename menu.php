@@ -1,3 +1,4 @@
+<!--Visible indication to tell the user of their location on the website -->
 <?php
 	if ($currentPage == "index.php")
 		$indexStyle = "currentPage";
@@ -14,6 +15,7 @@
 
 
 
+<!--Navigation menu -->
 
 <div id ="nav">
 	<ul>

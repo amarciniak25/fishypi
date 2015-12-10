@@ -1,3 +1,4 @@
+//Light Schedule form validator
 function ValidateRelays(){
 var x = document.getElementById("schedule1Yes").checked == false;
 var y = document.getElementById("schedule1No").checked == false; 

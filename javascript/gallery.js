@@ -1,3 +1,4 @@
+// Changing the cursor function
 function crosshair() {
     document.getElementById("myP1").style.cursor = "crosshair";
 	document.getElementById("myP2").style.cursor = "crosshair";
@@ -9,6 +10,7 @@ function crosshair() {
 function loadGallery() {
     alert("Enjoy the Gallery!!!");
 }
+// Changing the pictures functions and making the pictures bigger
 
 function changeImage1() {
     var image = document.getElementById('myP1');

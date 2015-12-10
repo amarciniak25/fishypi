@@ -12,9 +12,10 @@
 	<div id = "header">
 		<h1>Fishy Pi</h1>
 	</div>
-	<?php $currentPage=basename($_SERVER['PHP_SELF']);?>
+	<?php $currentPage=basename($_SERVER['PHP_SELF']); // looks up the name of the current page?>
 	<?php include("menu.php"); ?>
 	
+	<!--Saves the temperature in to a cookies-->
 	<?php
 	if(isset($_COOKIE["temp"])) {
 		$temp=$_COOKIE["temp"];
@@ -25,13 +26,13 @@
 	?>
 	
 	<div id ="main">
-	
+	<!--Form for the temperature-->
 	<form name="temp" onsubmit="return validateTemp()" action="savetemp.php" method="post">
 		<p><strong>Target temperature:</strong></p>
 		<input type="text" name="temp" value="<?php echo $temp; ?>">
 		<input type="submit" value="Submit">
 	</form><br>
-	
+	<!--Form for the light color-->
 	<form name="lightColor" onsubmit="return validateColor()" action="savecolor.php" method="post">
 	<p><strong>Select light color:</strong></p>
 	<select name="lights" id="lights">
@@ -60,6 +61,6 @@
   </div>
 	<div id ="footer">
 	
-	
+		
 	</div>
 </body>

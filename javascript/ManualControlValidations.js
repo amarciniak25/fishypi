@@ -1,3 +1,4 @@
+//Forms validators
 function validateTemp() {
     var x = document.forms["temp"]["temp"].value;
     if (x == null || x == "") {

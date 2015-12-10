@@ -1,4 +1,4 @@
-<?php
+<?php // saves chosen color in to a file
 $OUTPUT_FILENAME = "Data/Color.txt";
 $color = $_POST['lights'];
 file_put_contents($OUTPUT_FILENAME, $color);
@@ -8,7 +8,7 @@ file_put_contents($OUTPUT_FILENAME, $color);
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="refresh" content="0;url=./ManualControl.php">
+<meta http-equiv="refresh" content="0;url=./ManualControl.php"> 
 </head>
 <body></body>
 

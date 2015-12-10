@@ -1,4 +1,4 @@
-<?php
+<?php // saves temperature in to a file
 $OUTPUT_FILENAME = "Data/Temperature.txt";
 $temp = $_POST['temp'];
 file_put_contents($OUTPUT_FILENAME, $temp);

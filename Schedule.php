@@ -13,11 +13,12 @@
 	<div id = "header">
 		<h1>Fishy Pi</h1>
 	</div>
-	<?php $currentPage=basename($_SERVER['PHP_SELF']);?>
+	<?php $currentPage=basename($_SERVER['PHP_SELF']);// looks up the name of the current page?>
 	<?php include("menu.php"); ?>
 	
 	<div id ="main">
 	<p><strong>Enable schedule</strong></p>
+	<!-- Form for the light schedule-->
 	<form onsubmit="return ValidateRelays()" action="saveschedule.php" method="post">
 	<table style="width:100%">
 <tr>
@@ -72,6 +73,5 @@
 	</div>
 	<div id ="footer">
 	
-		
 	</div>
 </body>
